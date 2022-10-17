@@ -7,5 +7,5 @@ import javax.inject.Inject
 class Repository @Inject constructor(
     remoteDataSource: RemoteDataSource
 ) {
-    val remomte = remoteDataSource
+    val remote = remoteDataSource
 }
